@@ -12,7 +12,7 @@ int main()
     //computing  the area
       area = pi*(radius*radius);
 
-      printf("\nArea of circle = %f",area);
+      printf("\n Area of circle is %f meters",area);
 
       return 0;
 }
