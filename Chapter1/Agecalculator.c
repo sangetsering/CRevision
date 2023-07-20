@@ -1,6 +1,6 @@
 //program to print the age of person correct to month and date
 
-#include<stdio.h>
+#include<stdio.h> 
 int main()
 {
     int py,pb,xm,xy,xd,mp,td,bd;
