@@ -7,7 +7,7 @@ int main()
 	float number,i=1.0;
 	double harmonicvalue=0.0;
 	
-	printf("enter the Number to get the following series' computed result: \n");
+	printf("Enter number: \n");
 	printf("\t 1+1/2+1/3+.......+1/N\n");
 	
 	scanf("%f",&number);
