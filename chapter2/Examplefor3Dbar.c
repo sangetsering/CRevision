@@ -3,7 +3,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<conio.h>
-#include<graphic.h>
+#include<graphics.h>
 
 int main()
 {
