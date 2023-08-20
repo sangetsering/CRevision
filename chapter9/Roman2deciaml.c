@@ -14,21 +14,15 @@ int main()
    char ins;
    
    printf("Enter the Roman number: \n");
-   
-   do
-   {
-      scanf("%c",&ins);
-	  Roman[i] = ins ;
-	  i++;	
-   }while(ins !='D');
+      scanf("%s",Roman);
    	
    	//calculating the decimal
    	i=1;
-   	while(Roman[i]!='D')
+   	while(Roman[i]!='\0')
    	{
-   	   if(Roman[i]>Roman[i-1])
+   	   if(DeciRo(Roman[i])>DeciRo(Roman[i-1]))
 	   {
-		  	decimal = decimal + (DeciRo(Roman[i-1]) - DeciRo(Roman[i]));
+		  	decimal = decimal + (DeciRo(Roman[i]) - DeciRo(Roman[i-1]));
    	   }	
    	   else
    	   {
